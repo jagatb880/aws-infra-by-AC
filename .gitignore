@@ -1,0 +1,19 @@
+# Global Terraform ignore
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.terraform.lock.hcl
+.terraform/
+darwin_amd64/
+
+# Global ignore for local override files
+override.tf
+override.tf.json
+
+# Global ignore for .tfvars files that are intended to be overridden
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+
+# Global ignore for crash log files
+crash.log
